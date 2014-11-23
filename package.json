@@ -1,0 +1,38 @@
+{
+    "name": "servant-frontend-tutorial",
+    "version": "0.0.1",
+    "description": "Servant Front-End Tutorial",
+    "main": "index.js",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/servant-app/servant-frontend-tutorial.git"
+    },
+    "keywords": [
+        "servant",
+        "api",
+        "content",
+        "cloud",
+        "storage",
+        "archetypes",
+        "content",
+        "archetypes",
+        "servants"
+    ],
+    "author": "",
+    "license": "MIT",
+    "engines": {
+        "node": ">=0.10",
+        "npm": "1.1.32"
+    },
+    "bugs": {
+        "url": "https://github.com/servant-app/servant-frontend-tutorial/issues"
+    },
+    "homepage": "https://github.com/servant-app/servant-frontend-tutorial",
+    "dependencies": {
+        "connect": "^3.2.0",
+        "serve-static": "^1.6.3"
+    },
+    "devDependencies": {
+    }
+}

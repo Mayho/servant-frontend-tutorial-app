@@ -1,0 +1,23 @@
+{
+  "name": "servant-sdk-javascript",
+  "version": "1.0.5",
+  "main": "src/servant_sdk_javascript.js",
+  "ignore": [
+    "server.js",
+    "index.html",
+    ".gitignore",
+    "node_modules",
+    "package.json"
+  ],
+  "homepage": "https://github.com/servant-app/servant-sdk-javascript",
+  "_release": "1.0.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.5",
+    "commit": "6a577d63195a4b5dfe90249a553924ce453010b0"
+  },
+  "_source": "git://github.com/servant-app/servant-sdk-javascript.git",
+  "_target": "~1.0.5",
+  "_originalSource": "servant-sdk-javascript",
+  "_direct": true
+}

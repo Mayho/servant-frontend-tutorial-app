@@ -1,0 +1,80 @@
+body, div, h1, h2, h3, h4, h5, h6, p, a, span {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+h1, h2 {
+    text-align: center
+}
+
+#connect-view {
+    text-align: center;
+    padding-top:50px;
+}
+
+#servant-connect-button {
+    background: #e8544c;
+    color: #ffffff;
+    border: none;
+    padding: 15px 20px;
+    font-family: 'Lucida Grande', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-shadow: 0px 3px 0px 0px #c4443d;
+    box-shadow: 0px 3px 0px 0px #c4443d;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+#servant-connect-button:hover {
+    cursor: pointer;
+    background: #ff6d65;
+    color: #ffffff;
+}
+#servant-connect-button:active {
+    position: relative;
+    top: 2.5px;
+}
+#servants-info {
+    text-align: center;
+}
+#product-info {
+    text-align: center;
+}
+#archetypes-container {
+    width:100%;
+    min-height:400px;
+}
+.section {
+    display:block;
+    float:left;
+    width:33%;
+    height:400px;
+    text-align: center;
+}
+#product-recent-name {
+    margin:17px 0px 10px 0px;
+    font-size:25px;
+}
+#product-recent-price {
+    margin:5px 0px 10px 0px;
+}
+#product-recent-seller {
+    margin:5px;
+}
+#product-recent-image, #product-form-image {
+    background:#fff;
+    padding:4px;
+    border:1px solid rgba(0,0,0,0.2);
+    max-width:80px;
+    max-height:80px;
+    text-align: center;
+}
+
+
+
+
+

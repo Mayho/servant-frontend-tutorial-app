@@ -1,0 +1,12 @@
+{
+    "name": "servant-sdk-javascript",
+    "version": "1.0.5",
+    "main": "src/servant_sdk_javascript.js",
+    "ignore":[
+    	"server.js",
+    	"index.html",
+    	".gitignore",
+    	"node_modules",
+    	"package.json"
+    ]
+}

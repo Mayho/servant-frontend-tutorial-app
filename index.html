@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Servant Front-End Tutorial App</title>
+
+    <link rel="stylesheet" type="text/css" href="tutorial.css">
+</head>
+
+<body>
+    <h1>Servant Front-End Tutorial Application</h1>
+
+    <div id="connect-view">
+        <!-- Servant Connect Button  -->
+        <button id="servant-connect-button" onclick="Servant.connect()">Connect Servant</button>
+    </div>
+
+    <div id="content-view" style="display:none;">
+        <h2 id="welcome-user"></h2>
+        <p id="servants-info"></p>
+
+        <div id="content-create-area">
+
+            <!-- Servant Toggle -->
+            <p style="text-align:center;">
+                Select your servant:
+                <select id="servant-select"></select>
+            </p>
+
+            <hr>
+
+            <!-- Product Data -->
+            <p id="product-info"></p>
+
+            <div id="archetypes-container">
+                <div class="section dropzone">
+                    <h4>Create Image</h4>
+                </div>
+                <div class="section">
+                    <h4>Create A Product</h4>
+                    <p>
+                        <img id="product-form-image">
+                    </p>
+                    <form action="" onsubmit="return createProduct();">
+                        Name
+                        <br>
+                        <input type="text" name="name" id="product-name">
+                        <br> Price
+                        <br>
+                        <input type="number" name="price" id="product-price">
+                        <br> Seller
+                        <br>
+                        <input type="text" name="seller" id="product-seller">
+                        <br>
+                        <br>
+                        <input type="submit" value="Create">
+                    </form>
+                </div>
+                <div class="section">
+                    <h4>Most Recent Product</h4>
+                    <p style="text-align:center">
+                        <img id="product-recent-image">
+                    </p>
+                    <p id="product-recent-name"></p>
+                    <p id="product-recent-price"></p>
+                    <p id="product-recent-seller"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Servant SDK Source Files -->
+    <script type="text/javascript" src="bower_components/servant-sdk-javascript/src/servant_sdk_javascript.js"></script>
+    <!-- Application Javascript -->
+    <script type="text/javascript" src="tutorial.js"></script>
+</body>
+
+</html>
